@@ -1,7 +1,0 @@
-# coding: utf-8
-import numpy as np
-import matplotlib.pyplot as plt
-x = np.linspace(0, 10, 1000)
-plt.plot(x, np.sin(x))
-plt.show()
-![Figure_1](https://user-images.githubusercontent.com/100432854/159135233-f0f054a9-a290-4800-bca6-00731116e589.png)
