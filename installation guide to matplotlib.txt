@@ -15,7 +15,7 @@ if python is already installed
 
 
 but wait what is pip?
-pip is a package management software simlifies the mangement and installation of packages by this you can install python libraries or upgrade them.
+pip is a package management software simplifies the mangement and installation of packages by this you can install python libraries or upgrade them.
 
 for installing any pacakge type 'pip install --package'
 
