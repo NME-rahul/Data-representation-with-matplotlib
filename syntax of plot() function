@@ -85,3 +85,4 @@ eg. of fmt string '^k:'  # black triangle_up markers connected by a dotted line
                   '--'   # dashed line with default color
                   
   
+eg. plt.plot(x, y, 'fmt', label='x-line', color='g', linewidth=2, markersize=3, markerfacecolor='b', markeredgewidth=1, markeredgecolor='r')
