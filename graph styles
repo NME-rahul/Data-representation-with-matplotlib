@@ -1,0 +1,47 @@
+example-
+'''import numpy as np
+import matplotlib.pyplot as plt
+plt.style.use('classic') #use to produce classic style graph we can create some different styles as mentioned below
+x = np.linspace(0, 10, 1000)
+plt.plot(x, np.sin(x))
+plt.show()'''
+
+
+Graph Styles -
+================
+syntax:-
+'plt.style.use('style_name')'
+
+
+style names -
+===============
+1.  'classic'
+2.  'Solarize_Light2'
+3.  '_classic_test_patch'
+4.  '_mpl-gallery'
+5.  '_mpl-gallery-nogrid'
+6.  'bmh', 'classic'
+7.  'dark_background'
+8.  'fast'
+9.  'fivethirtyeight'
+10. 'ggplot'
+11. 'grayscale'
+12. 'seaborn'
+13. 'seaborn-bright'
+14. 'seaborn-colorblind'
+15. 'seaborn-dark'
+16. 'seaborn-dark-palette'
+17. 'seaborn-darkgrid'
+18. 'seaborn-deep'
+19. 'seaborn-muted'
+20. 'seaborn-notebook'
+21. 'seaborn-paper'
+22. 'seaborn-pastel'
+23. 'seaborn-poster'
+24. 'seaborn-talk'
+25. 'seaborn-ticks'
+26. 'seaborn-white'
+27. 'seaborn-whitegrid'
+28. 'tableau-colorblind10'
+
+-> check available styles in matplotlib by 'plt.style.available' .
