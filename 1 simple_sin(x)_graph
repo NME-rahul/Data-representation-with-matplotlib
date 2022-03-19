@@ -1,9 +1,15 @@
 # coding: utf-8
+# this is a 'hello world' like code of matplotlib 😒😒😄
+
 import numpy as np
-import matplotlib.pyplot as plt
+#pyplot is use to plot graphs and plt is a standard alias you can use alias as you want. 
+from matplotlib import pyplot as plt
+#linspace(start, stop, how_many) is a function of numpy library used to create an array(by default float values with dimension 1) of real values. 
 x = np.linspace(0, 10, 1000)
+#plot(x, y, ...) is used to plot graph and it return the address of graph where it stored.
 plt.plot(x, np.sin(x))
+#plt.show() is use to show the graph.
 plt.show()
 
-#to see produced graph open given link 
+#to see produced graph open given link below
 ![Figure_1](https://user-images.githubusercontent.com/100432854/159135233-f0f054a9-a290-4800-bca6-00731116e589.png)
