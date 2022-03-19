@@ -1,0 +1,23 @@
+if you already have pip installed then skip this and type 'pip install matplotlib' in terminal/cmd. 
+
+for unix/linux :-
+-> by default pip is not installed in unix/linux you have to install it for this just type 'sudo apt install python3-pip' in terminal.
+-> for upgrading pip type 'pip install --upgrade pip'
+
+for windows:-
+-> install python from(suitable to your computer) https://www.python.org/
+-> in windows while installing python give path to environment variable of pip(default - it automaticaly add path).
+-> if pip is not recognized by cmd add path in environment variables (path - C:/python3/scripts24).
+if python is already installed
+-> you can direct download pip and copy-paste it on same directory where the python is installed.
+-> after installation check pip and python is intalled or not for this open cmd and just type 'python/python3' for python and 'pip' for pip.
+-> for upgrading pip type 'pip install --upgrade pip'
+
+
+but wait what is pip?
+pip is a package management software simlifies the mangement and installation of packages by this you can install python libraries or upgrade them.
+
+for installing any pacakge type 'pip install --package'
+
+to know more about pip type 'man pip' in linux/unix and 'pip help' in windows.
+ 
