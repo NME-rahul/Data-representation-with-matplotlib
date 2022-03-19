@@ -1,1 +1,87 @@
+plt.plot()
 
+Warning - if you are new don't try to read and understand this. you will only able understand/remember parameters of plot() function by just practice.  
+
+Parameters -
+=============
+-> x, y The horizontal / vertical coordinates of the data points.
+-> Commonly, these parameters are 1D arrays.
+-> They can also be scalars, or two-dimensional (in that case, the columns represent separate data sets).
+-> These arguments cannot be passed as keywords.
+
+fmtstr, optional
+-> A format string, [marker][line][color] e.g. 'ro' for red circles.
+-> Format strings are just an abbreviation for quickly setting basic line properties. 
+-> All of these and more can also be controlled by keyword arguments.
+-> This argument cannot be passed as keyword.
+
+data indexable object, optional
+-> An object with labelled data. If given, provide the label names to plot in x and y.
+
+**kwargs Line2D properties, optional
+-> kwargs are used to specify properties like a line label (for auto legends), linewidth, antialiasing, marker face color.
+
+
+
+Markers:-                                         line styles:-                                             Colors:-
+========================================================================================================================================================================
+character       description                       character           description                           character           description
+
+'.'             point marker                      '-'                 solid line style                      'b'                 blue
+
+','             pixel marker                      '--'                dashed line style                     'g'                 green
+
+'o'             circle marker                     '-.'                dash-dot line style                   'r'                 red
+
+'v'             triangle_down marker              ':'                 dotted line style                     'c'                 cyan
+
+'^'             triangle_up marker                                                                          'm'                 magenta
+
+'<'             triangle_left marker                                                                        'y'                 yellow
+
+'>'             triangle_right marker                                                                        'k'                black
+
+'1'             tri_down marker                                                                              'w'                white
+
+'2'             tri_up marker
+
+'3'             tri_left marker
+
+'4'             tri_right marker
+
+'8'             octagon marker
+
+'s'             square marker
+
+'p'             pentagon marker
+
+'P'             plus (filled) marker
+
+'*'             star marker
+
+'h'             hexagon1 marker
+
+'H'             hexagon2 marker
+
+'+'             plus marker
+
+'x'             x marker
+
+'X'             x (filled) marker
+
+'D'             diamond marker
+
+'d'             thin_diamond marker
+
+'|'             vline marker
+
+'_'             hline marker
+
+
+-> matplotlib also supports #RGB and #RRGGBB colors
+
+eg. of fmt string '^k:'  # black triangle_up markers connected by a dotted line
+                  'or'   # red circles
+                  '--'   # dashed line with default color
+                  
+  
