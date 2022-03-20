@@ -24,6 +24,23 @@ import numpy as np
  
 x = [1,2,3,4,5] #simple list
 
+#here 'x--c' means curve has marker x(cross), dashed lines and cyan color
 plt.plot(x, x, 'x--c', label='y=x')
 plt.legend()
 plt.show()
+
+output file - ![Figure_6](https://user-images.githubusercontent.com/100432854/159161761-5182ea84-6347-42f2-906a-e1e884b5a5a8.png)
+
+*another example
+
+from matplotlib import pyplot as plt
+import numpy as np
+ 
+x = [1,2,3,4,5] #simple list
+
+#here '^-m' means curve has marker ^(triangele), solid lines and magenta color
+plt.plot(x, x, '^-m', label='y=x')
+plt.legend()
+plt.show()
+
+output file - 
