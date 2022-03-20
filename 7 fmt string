@@ -22,8 +22,8 @@ output file - ![Figure_5](https://user-images.githubusercontent.com/100432854/15
 from matplotlib import pyplot as plt
 import numpy as np
  
-x = np.random.rand(10) #produce 100 random float numbers
+x = [1,2,3,4,5] #simple list
 
-plt.plot(x, x, '^-c', label='y=x')
+plt.plot(x, x, 'x--c', label='y=x')
 plt.legend()
 plt.show()
