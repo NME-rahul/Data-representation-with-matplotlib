@@ -13,3 +13,5 @@ plt.legend()
 plt.title('Graph of sin(x)')
 
 plt.show()
+
+![Figure_2](https://user-images.githubusercontent.com/100432854/159159560-6d7f12b9-11d3-4eae-9995-4d4d49c5d3b7.png)
