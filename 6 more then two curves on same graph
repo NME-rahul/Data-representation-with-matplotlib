@@ -1,0 +1,16 @@
+#you can plot more then two curves on same plane or hundreds of curve on same plane. by just adding plt.plot() that much times.
+
+from matplotlib import pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 10, 1000)
+
+plt.plot(x, np.sin(x), color='g', label='sin(x)')           # 1st curve
+plt.plot(x, np.cos(x), color='b', label='cos(x)')           # 2nd curve
+plt.plot(x, np.arcsin(x), color='c', label='arcsin(x)')     # 3rd curve
+plt.plot(x, np.arccos(x), color='m', label='arccos(x)')     # 4th curve
+plt.plot(x+1, x, color='y', label ='y=x+1')                 # 5th curve
+
+plt.legend()
+
+plt.show()
