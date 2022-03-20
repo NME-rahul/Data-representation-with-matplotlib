@@ -4,10 +4,13 @@
 import numpy as np
 #pyplot is use to plot graphs and plt is a standard alias you can use alias as you want. 
 from matplotlib import pyplot as plt
+
 #linspace(start, stop, how_many) is a function of numpy library used to create an array(by default float values with dimension 1) of real values. 
 x = np.linspace(0, 10, 1000)
+
 #plot(x, y, ...) is used to plot graph and it return the address of graph where it stored. here x parameter is values of x cordinate and np.sin(x) is y cordinate of graph.
 plt.plot(x, np.sin(x))
+
 #plt.show() is use to show the graph.
 plt.show()
 
