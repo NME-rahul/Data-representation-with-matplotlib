@@ -1,1 +1,18 @@
-'[marker][line][color]'
+fmt string - '[marker][line][color]'
+marker - marker is used mark (x,y) values
+line - use for line style of curve
+color - color of curve
+
+from matplotlib import pyplot as plt
+import numpy as np
+
+x = np.arange(0, 100, 5)  #np.arange(start, stop, step)
+
+# 'o--r' means curve has dots on (x,y) points, line style is dashed and color of curve is red
+plt.plot(x, np.sin(x), 'o--r', label='sin(x)')
+
+plt.legend()
+plt.show()
+
+
+
