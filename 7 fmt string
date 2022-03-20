@@ -43,4 +43,5 @@ plt.plot(x, x, '^-m', label='y=x')
 plt.legend()
 plt.show()
 
-output file - 
+output file - ![Figure_7](https://user-images.githubusercontent.com/100432854/159162044-b072f4a3-236b-45ef-93b3-64ff3a321a60.png)
+
