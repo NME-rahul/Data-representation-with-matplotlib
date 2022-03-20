@@ -1,4 +1,4 @@
-plt.plot()
+plt.plot() - use to plot data.
 
 Warning - if you are new don't try to read and understand this. you will only able understand/remember parameters of plot() function by just practice.  
 
