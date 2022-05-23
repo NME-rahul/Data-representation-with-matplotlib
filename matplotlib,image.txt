@@ -1,0 +1,18 @@
+MATplotlib.image as img
+Loading image data is supported by the Pillow library. Natively, matplotlib only supports PNG images. The commands shown below fall back on Pillow if the native read fails.
+
+a = img.imread('path') //will give a 3d numpy array(matrix) for coloured images and 2d for black & white.
+plt.imshow(a)
+plt.show()
+
+#a 24-bit RGB PNG image (8 bits for each of R, G, B)
+
+#RRGGBB format (hexadecimal colour coding 0-F) first two for red, second two for green and third for blue
+#000000 means 00 - RR, 00-GG, 00-BB (the value of colour is the colour can be vary from 0 to F)
+#FF0000 this gives the red colour with highest luminosity
+#00FF00 this gives the green colour with highest luminosity
+#0000FF this gives the blue colour with highest luminosity 
+
+#0FCC11 this the mix colour of red(value R=0,R=F), green(value G=C,G=C) and blue(value B=1,B=1)
+
+=> you cant make change in plot that are already rendered
