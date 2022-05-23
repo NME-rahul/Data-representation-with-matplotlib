@@ -1,4 +1,4 @@
-MATplotlib.image as img
+import matplotlib.image as img
 Loading image data is supported by the Pillow library. Natively, matplotlib only supports PNG images. The commands shown below fall back on Pillow if the native read fails.
 
 a = img.imread('path') //will give a 3d numpy array(matrix) for coloured images and 2d for black & white.
