@@ -4,6 +4,6 @@
 > trust me! data representation with python is very easy😁😄😄😄
 
 
-**Available grphs in matplotlib [module](https://matplotlib.org/stable/plot_types/index.html)**
+**Available plots in matplotlib [module](https://matplotlib.org/stable/plot_types/index.html)**
 
 ![img](https://miro.medium.com/max/1400/1*JTEqCz-VU16nkkUwzyWp_w.png )
