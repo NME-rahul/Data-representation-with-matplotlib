@@ -1,4 +1,5 @@
 plt.plot() - use to plot data.
+plt.fill_between() -> to fill the plot
 
 Warning - if you are new don't try to read and understand this. you will only able understand/remember parameters of plot() function by just practice.  
 
